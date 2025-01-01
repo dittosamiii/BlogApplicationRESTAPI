@@ -27,6 +27,7 @@ public class PostDto {
 	private String content;
 	@Schema(description = "Blog Post Comments")
 	private Set<CommentDto> comments;
+	
 	@Schema(description = "Blog Post Category")
 	private Long categoryId;
 }
